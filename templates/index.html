@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Growthzi Backend API Test</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/script.js" defer></script>
+</head>
+<body>
+  <h1>Growthzi Backend API Testing</h1>
+
+  <!-- Resume Upload -->
+  <section>
+    <h2>1. Portfolio from Resume</h2>
+    <form id="resumeForm">
+      <input type="file" id="resumeFile" name="file" />
+      <button type="submit">Upload Resume</button>
+    </form>
+    <pre id="resumeResult"></pre>
+  </section>
+
+  <hr>
+
+  <!-- Translation -->
+  <section>
+    <h2>2. Translation</h2>
+    <form id="translateForm">
+      <input type="text" id="translateText" placeholder="Enter text" />
+      <input type="text" id="translateLang" placeholder="Language code (hi, fr, es)" />
+      <button type="submit">Translate</button>
+    </form>
+    <pre id="translateResult"></pre>
+  </section>
+
+  <hr>
+
+  <!-- Pricing -->
+  <section>
+    <h2>3. Pricing</h2>
+    <form id="pricingForm">
+      <input type="text" id="countryCode" placeholder="Country code (US, IN, EU, UK)" />
+      <button type="submit">Get Price</button>
+    </form>
+    <pre id="pricingResult"></pre>
+  </section>
+
+</body>
+</html>
