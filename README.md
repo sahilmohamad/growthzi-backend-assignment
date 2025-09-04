@@ -96,6 +96,7 @@ Link : http://127.0.0.1:5000/
 
 Demo Video:
 Link - https://drive.google.com/file/d/1sUMEkiXPTsYezv6SGe7PQYwbEo2-U1zj/view?usp=sharing
+[Watch Demo](demo/Growthzi_Backend_Developer_Assignment.mp4)
 
 📂 Project Structure
 growthzi_backend_assignment/
